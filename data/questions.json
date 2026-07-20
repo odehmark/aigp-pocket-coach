@@ -1,0 +1,2302 @@
+[
+  {
+    "id": 1,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "AI system classification",
+    "difficulty": "Practitioner",
+    "question": "A financial services company plans to deploy a generative AI assistant across multiple business units. The team has not yet completed a formal review of AI system classification. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Ask users to report problems informally after launch.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address classifying the system before assigning controls. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; AI system classification",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 2,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "stakeholder roles",
+    "difficulty": "Advanced",
+    "question": "A public-sector agency is piloting an AI-enabled monitoring tool that may affect access to an important service. Senior leaders are pressing for a quick launch, while evidence about stakeholder roles remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Ask users to report problems informally after launch.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address clarifying accountability among owners, developers, users, and oversight functions. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; stakeholder roles",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 3,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "AI lifecycle",
+    "difficulty": "Exam Challenge",
+    "question": "A healthcare provider is considering a customer-risk model supplied by an external vendor. The project team has strong technical confidence, but operational arrangements for AI lifecycle are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address applying governance controls from design through retirement. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; AI lifecycle",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 4,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "data and model distinction",
+    "difficulty": "Practitioner",
+    "question": "A retailer wants to scale an AI decision-support tool after a successful limited pilot. The vendor says its standard controls are sufficient, although the organisation has not independently assessed data and model distinction. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Proceed because the pilot produced good average performance."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address separating data risk, model risk, and use-context risk. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; data and model distinction",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 5,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "responsible AI principles",
+    "difficulty": "Advanced",
+    "question": "A global organisation is introducing an automated recommendation system in several jurisdictions. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address translating principles into operational requirements. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; responsible AI principles",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 6,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "AI system classification",
+    "difficulty": "Exam Challenge",
+    "question": "A human resources team proposes an AI ranking model to support high-volume decisions. The team has not yet completed a formal review of AI system classification. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Ask users to report problems informally after launch.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address classifying the system before assigning controls. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; AI system classification",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 7,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "stakeholder roles",
+    "difficulty": "Practitioner",
+    "question": "A customer operations team wants to use a third-party foundation-model service to automate routine decisions. Senior leaders are pressing for a quick launch, while evidence about stakeholder roles remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Ask users to report problems informally after launch.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address clarifying accountability among owners, developers, users, and oversight functions. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; stakeholder roles",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 8,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "AI lifecycle",
+    "difficulty": "Advanced",
+    "question": "An insurance organisation is replacing a manual process with a predictive scoring model. The project team has strong technical confidence, but operational arrangements for AI lifecycle are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Ask users to report problems informally after launch.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address applying governance controls from design through retirement. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; AI lifecycle",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 9,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "data and model distinction",
+    "difficulty": "Exam Challenge",
+    "question": "A university is introducing a biometric verification system for staff and student services. The vendor says its standard controls are sufficient, although the organisation has not independently assessed data and model distinction. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Delay governance work until the system has been operating for several months.",
+      "Proceed because the pilot produced good average performance.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address separating data risk, model risk, and use-context risk. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; data and model distinction",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 10,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "responsible AI principles",
+    "difficulty": "Practitioner",
+    "question": "A technology company is embedding an automated triage system into an existing product. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address translating principles into operational requirements. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; responsible AI principles",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 11,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "AI system classification",
+    "difficulty": "Advanced",
+    "question": "A financial services company plans to deploy a generative AI assistant across multiple business units. The team has not yet completed a formal review of AI system classification. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Proceed because the pilot produced good average performance.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address classifying the system before assigning controls. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; AI system classification",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 12,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "stakeholder roles",
+    "difficulty": "Exam Challenge",
+    "question": "A public-sector agency is piloting an AI-enabled monitoring tool that may affect access to an important service. Senior leaders are pressing for a quick launch, while evidence about stakeholder roles remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address clarifying accountability among owners, developers, users, and oversight functions. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; stakeholder roles",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 13,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "AI lifecycle",
+    "difficulty": "Practitioner",
+    "question": "A healthcare provider is considering a customer-risk model supplied by an external vendor. The project team has strong technical confidence, but operational arrangements for AI lifecycle are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Ask users to report problems informally after launch.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address applying governance controls from design through retirement. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; AI lifecycle",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 14,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "data and model distinction",
+    "difficulty": "Advanced",
+    "question": "A retailer wants to scale an AI decision-support tool after a successful limited pilot. The vendor says its standard controls are sufficient, although the organisation has not independently assessed data and model distinction. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Delay governance work until the system has been operating for several months.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Proceed because the pilot produced good average performance.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address separating data risk, model risk, and use-context risk. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "1": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; data and model distinction",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 15,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "responsible AI principles",
+    "difficulty": "Exam Challenge",
+    "question": "A global organisation is introducing an automated recommendation system in several jurisdictions. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address translating principles into operational requirements. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; responsible AI principles",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 16,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "AI system classification",
+    "difficulty": "Practitioner",
+    "question": "A human resources team proposes an AI ranking model to support high-volume decisions. The team has not yet completed a formal review of AI system classification. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Proceed because the pilot produced good average performance.",
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address classifying the system before assigning controls. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; AI system classification",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 17,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "stakeholder roles",
+    "difficulty": "Advanced",
+    "question": "A customer operations team wants to use a third-party foundation-model service to automate routine decisions. Senior leaders are pressing for a quick launch, while evidence about stakeholder roles remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address clarifying accountability among owners, developers, users, and oversight functions. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; stakeholder roles",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 18,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "AI lifecycle",
+    "difficulty": "Exam Challenge",
+    "question": "An insurance organisation is replacing a manual process with a predictive scoring model. The project team has strong technical confidence, but operational arrangements for AI lifecycle are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address applying governance controls from design through retirement. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; AI lifecycle",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 19,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "data and model distinction",
+    "difficulty": "Practitioner",
+    "question": "A university is introducing a biometric verification system for staff and student services. The vendor says its standard controls are sufficient, although the organisation has not independently assessed data and model distinction. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Delay governance work until the system has been operating for several months.",
+      "Proceed because the pilot produced good average performance.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address separating data risk, model risk, and use-context risk. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; data and model distinction",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 20,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "responsible AI principles",
+    "difficulty": "Advanced",
+    "question": "A technology company is embedding an automated triage system into an existing product. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address translating principles into operational requirements. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; responsible AI principles",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 21,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "AI system classification",
+    "difficulty": "Exam Challenge",
+    "question": "A financial services company plans to deploy a generative AI assistant across multiple business units. The team has not yet completed a formal review of AI system classification. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address classifying the system before assigning controls. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "3": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; AI system classification",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 22,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "stakeholder roles",
+    "difficulty": "Practitioner",
+    "question": "A public-sector agency is piloting an AI-enabled monitoring tool that may affect access to an important service. Senior leaders are pressing for a quick launch, while evidence about stakeholder roles remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address clarifying accountability among owners, developers, users, and oversight functions. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; stakeholder roles",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 23,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "AI lifecycle",
+    "difficulty": "Advanced",
+    "question": "A healthcare provider is considering a customer-risk model supplied by an external vendor. The project team has strong technical confidence, but operational arrangements for AI lifecycle are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address applying governance controls from design through retirement. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; AI lifecycle",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 24,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "data and model distinction",
+    "difficulty": "Exam Challenge",
+    "question": "A retailer wants to scale an AI decision-support tool after a successful limited pilot. The vendor says its standard controls are sufficient, although the organisation has not independently assessed data and model distinction. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address separating data risk, model risk, and use-context risk. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; data and model distinction",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 25,
+    "domain": "I",
+    "domainName": "Foundations of AI Governance",
+    "topic": "responsible AI principles",
+    "difficulty": "Practitioner",
+    "question": "A global organisation is introducing an automated recommendation system in several jurisdictions. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address translating principles into operational requirements. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; responsible AI principles",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 26,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "jurisdiction mapping",
+    "difficulty": "Practitioner",
+    "question": "A financial services company plans to deploy a predictive scoring model across multiple business units. The team has not yet completed a formal review of jurisdiction mapping. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address identifying which legal and regulatory obligations apply. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; jurisdiction mapping",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 27,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "privacy and data protection",
+    "difficulty": "Advanced",
+    "question": "A public-sector agency is piloting a biometric verification system that may affect access to an important service. Senior leaders are pressing for a quick launch, while evidence about privacy and data protection remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address ensuring lawful, proportionate, and transparent personal-data use. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; privacy and data protection",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 28,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "transparency obligations",
+    "difficulty": "Exam Challenge",
+    "question": "A healthcare provider is considering an automated triage system supplied by an external vendor. The project team has strong technical confidence, but operational arrangements for transparency obligations are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address providing meaningful information to affected people. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; transparency obligations",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 29,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "non-discrimination",
+    "difficulty": "Practitioner",
+    "question": "A retailer wants to scale a generative AI assistant after a successful limited pilot. The vendor says its standard controls are sufficient, although the organisation has not independently assessed non-discrimination. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address testing and mitigating unfair outcomes. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; non-discrimination",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 30,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "standards alignment",
+    "difficulty": "Advanced",
+    "question": "A global organisation is introducing an AI-enabled monitoring tool in several jurisdictions. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Delay governance work until the system has been operating for several months.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address using recognised frameworks to structure controls and evidence. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; standards alignment",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 31,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "jurisdiction mapping",
+    "difficulty": "Exam Challenge",
+    "question": "A human resources team proposes a customer-risk model to support high-volume decisions. The team has not yet completed a formal review of jurisdiction mapping. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Ask users to report problems informally after launch.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address identifying which legal and regulatory obligations apply. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; jurisdiction mapping",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 32,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "privacy and data protection",
+    "difficulty": "Practitioner",
+    "question": "A customer operations team wants to use an AI decision-support tool to automate routine decisions. Senior leaders are pressing for a quick launch, while evidence about privacy and data protection remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address ensuring lawful, proportionate, and transparent personal-data use. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; privacy and data protection",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 33,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "transparency obligations",
+    "difficulty": "Advanced",
+    "question": "An insurance organisation is replacing a manual process with an automated recommendation system. The project team has strong technical confidence, but operational arrangements for transparency obligations are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Delay governance work until the system has been operating for several months.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address providing meaningful information to affected people. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; transparency obligations",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 34,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "non-discrimination",
+    "difficulty": "Exam Challenge",
+    "question": "A university is introducing an AI ranking model for staff and student services. The vendor says its standard controls are sufficient, although the organisation has not independently assessed non-discrimination. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address testing and mitigating unfair outcomes. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; non-discrimination",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 35,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "standards alignment",
+    "difficulty": "Practitioner",
+    "question": "A technology company is embedding a third-party foundation-model service into an existing product. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address using recognised frameworks to structure controls and evidence. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; standards alignment",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 36,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "jurisdiction mapping",
+    "difficulty": "Advanced",
+    "question": "A financial services company plans to deploy a predictive scoring model across multiple business units. The team has not yet completed a formal review of jurisdiction mapping. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address identifying which legal and regulatory obligations apply. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; jurisdiction mapping",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 37,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "privacy and data protection",
+    "difficulty": "Exam Challenge",
+    "question": "A public-sector agency is piloting a biometric verification system that may affect access to an important service. Senior leaders are pressing for a quick launch, while evidence about privacy and data protection remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address ensuring lawful, proportionate, and transparent personal-data use. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; privacy and data protection",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 38,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "transparency obligations",
+    "difficulty": "Practitioner",
+    "question": "A healthcare provider is considering an automated triage system supplied by an external vendor. The project team has strong technical confidence, but operational arrangements for transparency obligations are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Ask users to report problems informally after launch.",
+      "Delay governance work until the system has been operating for several months.",
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address providing meaningful information to affected people. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; transparency obligations",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 39,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "non-discrimination",
+    "difficulty": "Advanced",
+    "question": "A retailer wants to scale a generative AI assistant after a successful limited pilot. The vendor says its standard controls are sufficient, although the organisation has not independently assessed non-discrimination. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address testing and mitigating unfair outcomes. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; non-discrimination",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 40,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "standards alignment",
+    "difficulty": "Exam Challenge",
+    "question": "A global organisation is introducing an AI-enabled monitoring tool in several jurisdictions. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Delay governance work until the system has been operating for several months.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Proceed because the pilot produced good average performance."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address using recognised frameworks to structure controls and evidence. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "3": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; standards alignment",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 41,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "jurisdiction mapping",
+    "difficulty": "Practitioner",
+    "question": "A human resources team proposes a customer-risk model to support high-volume decisions. The team has not yet completed a formal review of jurisdiction mapping. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address identifying which legal and regulatory obligations apply. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; jurisdiction mapping",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 42,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "privacy and data protection",
+    "difficulty": "Advanced",
+    "question": "A customer operations team wants to use an AI decision-support tool to automate routine decisions. Senior leaders are pressing for a quick launch, while evidence about privacy and data protection remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address ensuring lawful, proportionate, and transparent personal-data use. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "1": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; privacy and data protection",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 43,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "transparency obligations",
+    "difficulty": "Exam Challenge",
+    "question": "An insurance organisation is replacing a manual process with an automated recommendation system. The project team has strong technical confidence, but operational arrangements for transparency obligations are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Delay governance work until the system has been operating for several months.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address providing meaningful information to affected people. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; transparency obligations",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 44,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "non-discrimination",
+    "difficulty": "Practitioner",
+    "question": "A university is introducing an AI ranking model for staff and student services. The vendor says its standard controls are sufficient, although the organisation has not independently assessed non-discrimination. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Delay governance work until the system has been operating for several months.",
+      "Proceed because the pilot produced good average performance.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address testing and mitigating unfair outcomes. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; non-discrimination",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 45,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "standards alignment",
+    "difficulty": "Advanced",
+    "question": "A technology company is embedding a third-party foundation-model service into an existing product. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Delay governance work until the system has been operating for several months.",
+      "Proceed because the pilot produced good average performance.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address using recognised frameworks to structure controls and evidence. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; standards alignment",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 46,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "jurisdiction mapping",
+    "difficulty": "Exam Challenge",
+    "question": "A financial services company plans to deploy a predictive scoring model across multiple business units. The team has not yet completed a formal review of jurisdiction mapping. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Proceed because the pilot produced good average performance.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address identifying which legal and regulatory obligations apply. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; jurisdiction mapping",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 47,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "privacy and data protection",
+    "difficulty": "Practitioner",
+    "question": "A public-sector agency is piloting a biometric verification system that may affect access to an important service. Senior leaders are pressing for a quick launch, while evidence about privacy and data protection remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address ensuring lawful, proportionate, and transparent personal-data use. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; privacy and data protection",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 48,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "transparency obligations",
+    "difficulty": "Advanced",
+    "question": "A healthcare provider is considering an automated triage system supplied by an external vendor. The project team has strong technical confidence, but operational arrangements for transparency obligations are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Delay governance work until the system has been operating for several months.",
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address providing meaningful information to affected people. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; transparency obligations",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 49,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "non-discrimination",
+    "difficulty": "Exam Challenge",
+    "question": "A retailer wants to scale a generative AI assistant after a successful limited pilot. The vendor says its standard controls are sufficient, although the organisation has not independently assessed non-discrimination. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Proceed because the pilot produced good average performance."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address testing and mitigating unfair outcomes. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; non-discrimination",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 50,
+    "domain": "II",
+    "domainName": "Laws, Standards and Responsible AI",
+    "topic": "standards alignment",
+    "difficulty": "Practitioner",
+    "question": "A global organisation is introducing an AI-enabled monitoring tool in several jurisdictions. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Delay governance work until the system has been operating for several months.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address using recognised frameworks to structure controls and evidence. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "3": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; standards alignment",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 51,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "risk identification",
+    "difficulty": "Practitioner",
+    "question": "A financial services company plans to deploy an automated recommendation system across multiple business units. The team has not yet completed a formal review of risk identification. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address identifying harms, threats, affected groups, and misuse pathways. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; risk identification",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 52,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "risk assessment",
+    "difficulty": "Advanced",
+    "question": "A public-sector agency is piloting an AI ranking model that may affect access to an important service. Senior leaders are pressing for a quick launch, while evidence about risk assessment remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address evaluating likelihood, severity, exposure, and control strength. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; risk assessment",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 53,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "human oversight",
+    "difficulty": "Exam Challenge",
+    "question": "A healthcare provider is considering a third-party foundation-model service supplied by an external vendor. The project team has strong technical confidence, but operational arrangements for human oversight are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Delay governance work until the system has been operating for several months.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address designing meaningful intervention, escalation, and override capability. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; human oversight",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 54,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "testing and validation",
+    "difficulty": "Practitioner",
+    "question": "A retailer wants to scale a predictive scoring model after a successful limited pilot. The vendor says its standard controls are sufficient, although the organisation has not independently assessed testing and validation. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address validating performance, robustness, fairness, and safety. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; testing and validation",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 55,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "third-party risk",
+    "difficulty": "Advanced",
+    "question": "A global organisation is introducing a biometric verification system in several jurisdictions. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address governing vendor models, dependencies, and contractual assurance. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; third-party risk",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 56,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "incident response",
+    "difficulty": "Exam Challenge",
+    "question": "A human resources team proposes an automated triage system to support high-volume decisions. The team has not yet completed a formal review of incident response. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Ask users to report problems informally after launch.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address detecting, containing, investigating, remediating, and learning from AI incidents. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; incident response",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 57,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "risk identification",
+    "difficulty": "Practitioner",
+    "question": "A customer operations team wants to use a generative AI assistant to automate routine decisions. Senior leaders are pressing for a quick launch, while evidence about risk identification remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address identifying harms, threats, affected groups, and misuse pathways. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; risk identification",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 58,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "risk assessment",
+    "difficulty": "Advanced",
+    "question": "An insurance organisation is replacing a manual process with an AI-enabled monitoring tool. The project team has strong technical confidence, but operational arrangements for risk assessment are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Delay governance work until the system has been operating for several months.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address evaluating likelihood, severity, exposure, and control strength. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; risk assessment",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 59,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "human oversight",
+    "difficulty": "Exam Challenge",
+    "question": "A university is introducing a customer-risk model for staff and student services. The vendor says its standard controls are sufficient, although the organisation has not independently assessed human oversight. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months.",
+      "Proceed because the pilot produced good average performance.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address designing meaningful intervention, escalation, and override capability. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; human oversight",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 60,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "testing and validation",
+    "difficulty": "Practitioner",
+    "question": "A technology company is embedding an AI decision-support tool into an existing product. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address validating performance, robustness, fairness, and safety. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; testing and validation",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 61,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "third-party risk",
+    "difficulty": "Advanced",
+    "question": "A financial services company plans to deploy an automated recommendation system across multiple business units. The team has not yet completed a formal review of third-party risk. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Proceed because the pilot produced good average performance.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address governing vendor models, dependencies, and contractual assurance. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; third-party risk",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 62,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "incident response",
+    "difficulty": "Exam Challenge",
+    "question": "A public-sector agency is piloting an AI ranking model that may affect access to an important service. Senior leaders are pressing for a quick launch, while evidence about incident response remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address detecting, containing, investigating, remediating, and learning from AI incidents. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; incident response",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 63,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "risk identification",
+    "difficulty": "Practitioner",
+    "question": "A healthcare provider is considering a third-party foundation-model service supplied by an external vendor. The project team has strong technical confidence, but operational arrangements for risk identification are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months.",
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address identifying harms, threats, affected groups, and misuse pathways. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; risk identification",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 64,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "risk assessment",
+    "difficulty": "Advanced",
+    "question": "A retailer wants to scale a predictive scoring model after a successful limited pilot. The vendor says its standard controls are sufficient, although the organisation has not independently assessed risk assessment. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Delay governance work until the system has been operating for several months.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address evaluating likelihood, severity, exposure, and control strength. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; risk assessment",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 65,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "human oversight",
+    "difficulty": "Exam Challenge",
+    "question": "A global organisation is introducing a biometric verification system in several jurisdictions. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Delay governance work until the system has been operating for several months.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address designing meaningful intervention, escalation, and override capability. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; human oversight",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 66,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "testing and validation",
+    "difficulty": "Practitioner",
+    "question": "A human resources team proposes an automated triage system to support high-volume decisions. The team has not yet completed a formal review of testing and validation. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Proceed because the pilot produced good average performance.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address validating performance, robustness, fairness, and safety. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; testing and validation",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 67,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "third-party risk",
+    "difficulty": "Advanced",
+    "question": "A customer operations team wants to use a generative AI assistant to automate routine decisions. Senior leaders are pressing for a quick launch, while evidence about third-party risk remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address governing vendor models, dependencies, and contractual assurance. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; third-party risk",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 68,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "incident response",
+    "difficulty": "Exam Challenge",
+    "question": "An insurance organisation is replacing a manual process with an AI-enabled monitoring tool. The project team has strong technical confidence, but operational arrangements for incident response are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Ask users to report problems informally after launch.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address detecting, containing, investigating, remediating, and learning from AI incidents. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; incident response",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 69,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "risk identification",
+    "difficulty": "Practitioner",
+    "question": "A university is introducing a customer-risk model for staff and student services. The vendor says its standard controls are sufficient, although the organisation has not independently assessed risk identification. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address identifying harms, threats, affected groups, and misuse pathways. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; risk identification",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 70,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "risk assessment",
+    "difficulty": "Advanced",
+    "question": "A technology company is embedding an AI decision-support tool into an existing product. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Delay governance work until the system has been operating for several months.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address evaluating likelihood, severity, exposure, and control strength. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "3": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; risk assessment",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 71,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "human oversight",
+    "difficulty": "Exam Challenge",
+    "question": "A financial services company plans to deploy an automated recommendation system across multiple business units. The team has not yet completed a formal review of human oversight. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address designing meaningful intervention, escalation, and override capability. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; human oversight",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 72,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "testing and validation",
+    "difficulty": "Practitioner",
+    "question": "A public-sector agency is piloting an AI ranking model that may affect access to an important service. Senior leaders are pressing for a quick launch, while evidence about testing and validation remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address validating performance, robustness, fairness, and safety. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; testing and validation",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 73,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "third-party risk",
+    "difficulty": "Advanced",
+    "question": "A healthcare provider is considering a third-party foundation-model service supplied by an external vendor. The project team has strong technical confidence, but operational arrangements for third-party risk are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Delay governance work until the system has been operating for several months.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address governing vendor models, dependencies, and contractual assurance. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; third-party risk",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 74,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "incident response",
+    "difficulty": "Exam Challenge",
+    "question": "A retailer wants to scale a predictive scoring model after a successful limited pilot. The vendor says its standard controls are sufficient, although the organisation has not independently assessed incident response. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Delay governance work until the system has been operating for several months.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Proceed because the pilot produced good average performance."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address detecting, containing, investigating, remediating, and learning from AI incidents. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; incident response",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 75,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "risk identification",
+    "difficulty": "Practitioner",
+    "question": "A global organisation is introducing a biometric verification system in several jurisdictions. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Delay governance work until the system has been operating for several months.",
+      "Proceed because the pilot produced good average performance.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address identifying harms, threats, affected groups, and misuse pathways. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; risk identification",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 76,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "risk assessment",
+    "difficulty": "Advanced",
+    "question": "A human resources team proposes an automated triage system to support high-volume decisions. The team has not yet completed a formal review of risk assessment. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Ask users to report problems informally after launch.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address evaluating likelihood, severity, exposure, and control strength. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; risk assessment",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 77,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "human oversight",
+    "difficulty": "Exam Challenge",
+    "question": "A customer operations team wants to use a generative AI assistant to automate routine decisions. Senior leaders are pressing for a quick launch, while evidence about human oversight remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address designing meaningful intervention, escalation, and override capability. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; human oversight",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 78,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "testing and validation",
+    "difficulty": "Practitioner",
+    "question": "An insurance organisation is replacing a manual process with an AI-enabled monitoring tool. The project team has strong technical confidence, but operational arrangements for testing and validation are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Ask users to report problems informally after launch.",
+      "Delay governance work until the system has been operating for several months.",
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address validating performance, robustness, fairness, and safety. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; testing and validation",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 79,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "third-party risk",
+    "difficulty": "Advanced",
+    "question": "A university is introducing a customer-risk model for staff and student services. The vendor says its standard controls are sufficient, although the organisation has not independently assessed third-party risk. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Proceed because the pilot produced good average performance."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address governing vendor models, dependencies, and contractual assurance. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; third-party risk",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 80,
+    "domain": "III",
+    "domainName": "AI Risk Management",
+    "topic": "incident response",
+    "difficulty": "Exam Challenge",
+    "question": "A technology company is embedding an AI decision-support tool into an existing product. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Delay governance work until the system has been operating for several months.",
+      "Proceed because the pilot produced good average performance.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address detecting, containing, investigating, remediating, and learning from AI incidents. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; incident response",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 81,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "deployment readiness",
+    "difficulty": "Practitioner",
+    "question": "A financial services company plans to deploy a predictive scoring model across multiple business units. The team has not yet completed a formal review of deployment readiness. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Proceed because the pilot produced good average performance.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address confirming approval, controls, documentation, and operational ownership. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; deployment readiness",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 82,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "continuous monitoring",
+    "difficulty": "Advanced",
+    "question": "A public-sector agency is piloting a biometric verification system that may affect access to an important service. Senior leaders are pressing for a quick launch, while evidence about continuous monitoring remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address tracking drift, performance, incidents, and changing context. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; continuous monitoring",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 83,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "change management",
+    "difficulty": "Exam Challenge",
+    "question": "A healthcare provider is considering an automated triage system supplied by an external vendor. The project team has strong technical confidence, but operational arrangements for change management are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address reassessing risk when models, data, users, or purposes change. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; change management",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 84,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "user controls",
+    "difficulty": "Practitioner",
+    "question": "A retailer wants to scale a generative AI assistant after a successful limited pilot. The vendor says its standard controls are sufficient, although the organisation has not independently assessed user controls. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address ensuring appropriate instructions, access, logging, and escalation. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; user controls",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 85,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "retirement",
+    "difficulty": "Advanced",
+    "question": "A global organisation is introducing an AI-enabled monitoring tool in several jurisdictions. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Delay governance work until the system has been operating for several months.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address decommissioning safely and preserving required records. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "3": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; retirement",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 86,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "deployment readiness",
+    "difficulty": "Exam Challenge",
+    "question": "A human resources team proposes a customer-risk model to support high-volume decisions. The team has not yet completed a formal review of deployment readiness. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address confirming approval, controls, documentation, and operational ownership. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; deployment readiness",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 87,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "continuous monitoring",
+    "difficulty": "Practitioner",
+    "question": "A customer operations team wants to use an AI decision-support tool to automate routine decisions. Senior leaders are pressing for a quick launch, while evidence about continuous monitoring remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address tracking drift, performance, incidents, and changing context. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "1": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; continuous monitoring",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 88,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "change management",
+    "difficulty": "Advanced",
+    "question": "An insurance organisation is replacing a manual process with an automated recommendation system. The project team has strong technical confidence, but operational arrangements for change management are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Ask users to report problems informally after launch.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address reassessing risk when models, data, users, or purposes change. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; change management",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 89,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "user controls",
+    "difficulty": "Exam Challenge",
+    "question": "A university is introducing an AI ranking model for staff and student services. The vendor says its standard controls are sufficient, although the organisation has not independently assessed user controls. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Proceed because the pilot produced good average performance.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address ensuring appropriate instructions, access, logging, and escalation. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; user controls",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 90,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "retirement",
+    "difficulty": "Practitioner",
+    "question": "A technology company is embedding a third-party foundation-model service into an existing product. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address decommissioning safely and preserving required records. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; retirement",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 91,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "deployment readiness",
+    "difficulty": "Advanced",
+    "question": "A financial services company plans to deploy a predictive scoring model across multiple business units. The team has not yet completed a formal review of deployment readiness. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Proceed because the pilot produced good average performance.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Rely on the vendor's marketing material and standard contract."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address confirming approval, controls, documentation, and operational ownership. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; deployment readiness",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 92,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "continuous monitoring",
+    "difficulty": "Exam Challenge",
+    "question": "A public-sector agency is piloting a biometric verification system that may affect access to an important service. Senior leaders are pressing for a quick launch, while evidence about continuous monitoring remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 1,
+    "explanation": "The best response is to address tracking drift, performance, incidents, and changing context. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; continuous monitoring",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 93,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "change management",
+    "difficulty": "Practitioner",
+    "question": "A healthcare provider is considering an automated triage system supplied by an external vendor. The project team has strong technical confidence, but operational arrangements for change management are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Ask users to report problems informally after launch.",
+      "Delay governance work until the system has been operating for several months.",
+      "Treat the initiative as a technology issue owned only by the development team."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address reassessing risk when models, data, users, or purposes change. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; change management",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 94,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "user controls",
+    "difficulty": "Advanced",
+    "question": "A retailer wants to scale a generative AI assistant after a successful limited pilot. The vendor says its standard controls are sufficient, although the organisation has not independently assessed user controls. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Proceed because the pilot produced good average performance.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address ensuring appropriate instructions, access, logging, and escalation. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; user controls",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 95,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "retirement",
+    "difficulty": "Exam Challenge",
+    "question": "A global organisation is introducing an AI-enabled monitoring tool in several jurisdictions. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks.",
+      "Delay governance work until the system has been operating for several months."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address decommissioning safely and preserving required records. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Delaying governance allows unmanaged risk to become embedded in operations."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; retirement",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 96,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "deployment readiness",
+    "difficulty": "Practitioner",
+    "question": "A human resources team proposes a customer-risk model to support high-volume decisions. The team has not yet completed a formal review of deployment readiness. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Pause progression and complete the relevant governance assessment, assign accountable owners, and document approval criteria before wider use.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address confirming approval, controls, documentation, and operational ownership. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "1": "Average pilot performance does not address legal, ethical, operational, or context-specific risk.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; deployment readiness",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 97,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "continuous monitoring",
+    "difficulty": "Advanced",
+    "question": "A customer operations team wants to use an AI decision-support tool to automate routine decisions. Senior leaders are pressing for a quick launch, while evidence about continuous monitoring remains incomplete. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Ask users to report problems informally after launch.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Define the intended purpose, affected stakeholders, material risks, required controls, and evidence needed before approval."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address tracking drift, performance, incidents, and changing context. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation.",
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "AI governance is cross-functional and cannot be delegated only to the technical team."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; continuous monitoring",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 98,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "change management",
+    "difficulty": "Exam Challenge",
+    "question": "An insurance organisation is replacing a manual process with an automated recommendation system. The project team has strong technical confidence, but operational arrangements for change management are unclear. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Apply a proportionate control set based on risk, use context, and potential impact rather than relying on technical performance alone.",
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months.",
+      "Ask users to report problems informally after launch."
+    ],
+    "correctIndex": 0,
+    "explanation": "The best response is to address reassessing risk when models, data, users, or purposes change. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "1": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "2": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "Informal reporting is reactive and lacks defined monitoring, thresholds, ownership, and escalation."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; change management",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 99,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "user controls",
+    "difficulty": "Practitioner",
+    "question": "A university is introducing an AI ranking model for staff and student services. The vendor says its standard controls are sufficient, although the organisation has not independently assessed user controls. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Treat the initiative as a technology issue owned only by the development team.",
+      "Delay governance work until the system has been operating for several months.",
+      "Establish measurable acceptance thresholds, escalation paths, and independent review before deployment.",
+      "Proceed because the pilot produced good average performance."
+    ],
+    "correctIndex": 2,
+    "explanation": "The best response is to address ensuring appropriate instructions, access, logging, and escalation. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "AI governance is cross-functional and cannot be delegated only to the technical team.",
+      "1": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "3": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; user controls",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  },
+  {
+    "id": 100,
+    "domain": "IV",
+    "domainName": "Deployment, Monitoring and Use",
+    "topic": "retirement",
+    "difficulty": "Advanced",
+    "question": "A technology company is embedding a third-party foundation-model service into an existing product. The pilot was successful, but the scale and affected population will increase substantially. What should the AI governance professional recommend as the BEST next step?",
+    "options": [
+      "Delay governance work until the system has been operating for several months.",
+      "Rely on the vendor's marketing material and standard contract.",
+      "Proceed because the pilot produced good average performance.",
+      "Require traceable documentation, clear accountability, and ongoing monitoring linked to identified risks."
+    ],
+    "correctIndex": 3,
+    "explanation": "The best response is to address decommissioning safely and preserving required records. AIGP-style questions usually reward a risk-based, lifecycle approach with documented accountability and evidence before consequential use. Good pilot performance or vendor assurances do not replace governance review.",
+    "wrongExplanations": {
+      "0": "Delaying governance allows unmanaged risk to become embedded in operations.",
+      "1": "Vendor assertions are inputs to due diligence, not a substitute for the organisation's own accountability.",
+      "2": "Average pilot performance does not address legal, ethical, operational, or context-specific risk."
+    },
+    "framework": "Risk-based AI governance; lifecycle controls; retirement",
+    "examTrap": "Choosing speed, technical performance, or vendor assurance over documented governance and accountability."
+  }
+]
