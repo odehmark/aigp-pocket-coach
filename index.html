@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111827">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="AIGP Coach">
+  <title>AIGP Pocket Coach</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-192.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">AI Governance Academy</p>
+        <h1>AIGP Pocket Coach</h1>
+      </div>
+      <button id="themeBtn" class="icon-btn" aria-label="Toggle dark mode">◐</button>
+    </header>
+
+    <main>
+      <section id="dashboardView" class="view active">
+        <div class="hero card">
+          <div>
+            <span class="pill">Late-August Retake Plan</span>
+            <h2>Build judgement, not just recall.</h2>
+            <p>Practice realistic AI governance decisions across all four AIGP domains.</p>
+          </div>
+          <div class="readiness">
+            <div id="readinessScore" class="score-ring">0%</div>
+            <span>Readiness</span>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="card stat"><strong id="completedStat">0</strong><span>Answered</span></div>
+          <div class="card stat"><strong id="accuracyStat">0%</strong><span>Accuracy</span></div>
+          <div class="card stat"><strong id="bookmarkStat">0</strong><span>Bookmarks</span></div>
+          <div class="card stat"><strong id="streakStat">1</strong><span>Day streak</span></div>
+        </div>
+
+        <div class="card">
+          <div class="section-head"><h3>Quick practice</h3><span>Choose a session</span></div>
+          <div class="quick-grid">
+            <button class="primary session-btn" data-count="5">5 questions</button>
+            <button class="session-btn" data-count="10">10 questions</button>
+            <button class="session-btn" data-count="20">20 questions</button>
+            <button class="session-btn" data-count="50">50 questions</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="section-head"><h3>Domain performance</h3><span id="weakDomain">No data yet</span></div>
+          <div id="domainBars"></div>
+        </div>
+      </section>
+
+      <section id="practiceView" class="view">
+        <div class="card filters">
+          <label>Domain
+            <select id="domainFilter">
+              <option value="ALL">All domains</option>
+              <option value="I">Domain I</option>
+              <option value="II">Domain II</option>
+              <option value="III">Domain III</option>
+              <option value="IV">Domain IV</option>
+            </select>
+          </label>
+          <label>Difficulty
+            <select id="difficultyFilter">
+              <option value="ALL">All levels</option>
+              <option>Practitioner</option>
+              <option>Advanced</option>
+              <option>Exam Challenge</option>
+            </select>
+          </label>
+          <label>Length
+            <select id="lengthFilter">
+              <option>5</option><option selected>10</option><option>20</option><option>50</option><option>100</option>
+            </select>
+          </label>
+          <button id="startCustomQuiz" class="primary">Start quiz</button>
+        </div>
+      </section>
+
+      <section id="quizView" class="view">
+        <div class="quiz-top">
+          <button id="exitQuiz" class="text-btn">← Exit</button>
+          <span id="quizProgress">1 / 10</span>
+          <button id="bookmarkBtn" class="icon-btn">☆</button>
+        </div>
+        <div class="progress"><div id="progressBar"></div></div>
+        <article class="card question-card">
+          <div class="meta">
+            <span id="domainBadge" class="pill"></span>
+            <span id="difficultyBadge" class="pill ghost"></span>
+          </div>
+          <h2 id="questionText"></h2>
+          <div id="options"></div>
+          <button id="checkAnswer" class="primary wide" disabled>Check answer</button>
+          <div id="feedback" class="feedback hidden"></div>
+          <button id="nextQuestion" class="primary wide hidden">Next question</button>
+        </article>
+      </section>
+
+      <section id="resultsView" class="view">
+        <div class="card result-card">
+          <p class="eyebrow">Session complete</p>
+          <h2 id="resultScore">0%</h2>
+          <p id="resultText"></p>
+          <div id="resultBreakdown"></div>
+          <button id="backDashboard" class="primary wide">Back to dashboard</button>
+        </div>
+      </section>
+
+      <section id="libraryView" class="view">
+        <div class="section-head"><h2>Study Library</h2><span>Four AIGP domains</span></div>
+        <div id="libraryCards"></div>
+      </section>
+
+      <section id="bookmarksView" class="view">
+        <div class="section-head"><h2>Bookmarks</h2><span>Saved questions</span></div>
+        <div id="bookmarkList"></div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav">
+      <button data-view="dashboardView" class="active">⌂<span>Home</span></button>
+      <button data-view="practiceView">◎<span>Practice</span></button>
+      <button data-view="libraryView">▤<span>Library</span></button>
+      <button data-view="bookmarksView">☆<span>Saved</span></button>
+    </nav>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
